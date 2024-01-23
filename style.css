@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(70, 66, 66);
+    color:white;
+}
+
+.center{
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#clock{
+    font-size: x-large;
+    background-color: orange;
+    padding: 1.5rem;
+    border-radius: 20px;
+}
